@@ -10,9 +10,8 @@ var player, playerBase;
 
 
 function preload() {
-  backgroundImg = loadImage("./assets/background.png");
-  baseimage = loadImage("./assets/base.png");
-  playerimage = loadImage("./assets/player.png");
+  //load images here
+  
 }
 
 function setup() {
@@ -38,9 +37,10 @@ function draw() {
   background(backgroundImg);
 
   Engine.update(engine);
-  image(baseimage,playerBase.position.x,playerBase.position.y,180,150)
-  image(playerimage,player.position.x,player.position.y,50,180)
-
+ //write image functions to display function
+  
+  
+  
   // Title
   fill("#FFFF");
   textAlign("center");
